@@ -1,0 +1,36 @@
+//Low Level
+
+#include<stdio.h>
+void main()
+{
+    int size,i;
+    printf("Enter the size:");
+    scanf("%d",&size);
+    int arr[size];
+    for(i=0;i<size;i++)
+    {
+        printf("Enter an element %d:",i+1);
+        scanf("%d",&arr[i]);
+    }
+     printf("\nElements in the array\n");
+      for(i=0;i<size;i++)
+    {
+        printf("\nValue of the element %d:",i+1);
+        printf("%d",arr[i]);
+    }
+}
+
+Output
+
+Enter the size:2
+Enter an element 1:85
+Enter an element 2:5
+
+Elements in the array
+
+Value of the element 1:85
+Value of the element 2:5
+
+=== Code Execution succesful ===
+
+--------------------------------------------------------------------------------------------------------------
